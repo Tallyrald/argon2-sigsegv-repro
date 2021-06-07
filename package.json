@@ -1,0 +1,19 @@
+{
+  "name": "argon2-sigsegv-repro",
+  "version": "1.0.0",
+  "description": "Reproduction repo for demonstrating SIGSEGV error on ranisalt/node-argon2 v0.28.1",
+  "main": "built/index.js",
+  "scripts": {
+    "start": "node ./built/index.js",
+    "setup": "tsc"
+  },
+  "author": "Tallyrald <tally.github@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "0.28.1"
+  },
+  "devDependencies": {
+    "@types/node": "15.12.1",
+    "typescript": "4.3.2"
+  }
+}
